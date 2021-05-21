@@ -1,5 +1,5 @@
 import React, {PureComponent} from 'react';
-import {StatusBar, StyleSheet, View, Text} from 'react-native';
+import {StatusBar,  View, Text} from 'react-native';
 
 class EmojiScreen extends PureComponent {
   constructor(props) {
@@ -34,8 +34,8 @@ class EmojiScreen extends PureComponent {
               borderColor: 'black',
               borderWidth: 1,
               borderRadius: this.state.viewHeight / 2,
-              marginLeft: 20,
-              marginTop: 20,
+              marginLeft: '3%',
+              marginTop: '3%',
               // alignItems: 'center',
             }}>
             <View style={{flexDirection: 'row', justifyContent: 'center'}}>
@@ -73,8 +73,8 @@ class EmojiScreen extends PureComponent {
               }}>
               <View
                 style={{
-                  height: this.state.viewHeight / 8,
-                  width: this.state.viewHeight / 1,
+                  height: this.state.viewHeight / 10,
+                  width: this.state.viewHeight / 2.7,
                   marginTop: '18%',
                   borderColor: 'black',
                   borderWidth: 1,
@@ -86,9 +86,9 @@ class EmojiScreen extends PureComponent {
                   // position: 'absolute',
                   borderRadius: this.state.viewHeight / 2,
                   transform: [
-                    {rotateX: '30deg'},
-                    {rotateY: '-60deg'},
-                    {rotateZ: '20deg'},
+                    {rotateX: '50deg'},
+                    {rotateY: '30deg'},
+                    {rotateZ: '-20deg'},
                   ],
                 }}
               />
@@ -102,12 +102,12 @@ class EmojiScreen extends PureComponent {
             style={{
               height: 100,
               width: 100,
-              backgroundColor: 'green',
+              backgroundColor: '#f0c129',
               borderColor: 'black',
               borderWidth: 1,
               borderRadius: this.state.viewHeight / 2,
-              marginLeft: 20,
-              marginTop: 20,
+              marginLeft: '3%',
+              marginTop: '3%',
               // alignItems: 'center',
             }}>
             <View style={{flexDirection: 'row', justifyContent: 'center'}}>
@@ -117,8 +117,8 @@ class EmojiScreen extends PureComponent {
                   width: this.state.viewHeight / 6,
                   marginTop: '30%',
                   marginRight: '7%',
-                  backgroundColor: 'white',
-                  borderColor: 'white',
+                  backgroundColor: 'black',
+                  borderColor: 'black',
                   borderWidth: 1,
                   borderRadius: this.state.viewHeight / 8,
                 }}
@@ -129,8 +129,8 @@ class EmojiScreen extends PureComponent {
                   width: this.state.viewHeight / 6,
                   marginTop: '30%',
                   marginLeft: '7%',
-                  backgroundColor: 'white',
-                  borderColor: 'white',
+                  backgroundColor: 'black',
+                  borderColor: 'black',
                   borderWidth: 1,
                   borderRadius: this.state.viewHeight / 8,
                 }}
@@ -142,23 +142,14 @@ class EmojiScreen extends PureComponent {
               }}>
               <View
                 style={{
-                  height: this.state.viewHeight / 3,
-                  width: this.state.viewHeight / 1.7,
+                  height: this.state.viewHeight / 5,
+                  width: this.state.viewHeight / 2.5,
                   marginTop: '18%',
-                  borderColor: 'white',
+                  borderColor: 'black',
                   borderWidth: 3,
-                  backgroundColor: 'transparent',
-                  // borderTopRightRadius: this.state.viewHeight / 10,
-                  // borderTopLeftRadius: this.state.viewHeight / 10,
-                  // borderBottomRightRadius: this.state.viewHeight / 3,
-                  // borderBottomLeftRadius: this.state.viewHeight / 3,
-                  // position: 'absolute',
-                  // borderRadius: this.state.viewHeight / 2,
-                  // transform: [
-                  //   {rotateX: '30deg'},
-                  //   {rotateY: '-60deg'},
-                  //   {rotateZ: '20deg'},
-                  // ],
+                  backgroundColor: 'black',
+                  borderRadius: this.state.viewHeight / 2,
+                  transform: [{rotateX: '-60deg'}, {rotateY: '20deg'}],
                 }}
               />
             </View>
@@ -171,12 +162,12 @@ class EmojiScreen extends PureComponent {
             style={{
               height: 100,
               width: 100,
-              backgroundColor: 'gray',
+              backgroundColor: '#f0c129',
               borderColor: 'black',
               borderWidth: 1,
               borderRadius: this.state.viewHeight / 2,
-              marginLeft: 20,
-              marginTop: 20,
+              marginLeft: '3%',
+              marginTop: '3%',
               // alignItems: 'center',
             }}>
             <View style={{flexDirection: 'row', justifyContent: 'center'}}>
@@ -186,8 +177,8 @@ class EmojiScreen extends PureComponent {
                   width: this.state.viewHeight / 6,
                   marginTop: '30%',
                   marginRight: '7%',
-                  backgroundColor: 'white',
-                  borderColor: 'white',
+                  backgroundColor: 'black',
+                  borderColor: 'black',
                   borderWidth: 1,
                   borderRadius: this.state.viewHeight / 8,
                   // marginBottom: '7%',
@@ -200,8 +191,8 @@ class EmojiScreen extends PureComponent {
                   width: this.state.viewHeight / 6,
                   marginTop: '30%',
                   marginLeft: '7%',
-                  backgroundColor: 'white',
-                  borderColor: 'white',
+                  backgroundColor: 'black',
+                  borderColor: 'black',
                   borderWidth: 1,
                   borderRadius: this.state.viewHeight / 8,
                   //   justifyContent: 'flex-end',
@@ -217,9 +208,9 @@ class EmojiScreen extends PureComponent {
                   height: this.state.viewHeight / 5,
                   width: this.state.viewHeight / 1.8,
                   marginTop: '18%',
-                  borderColor: 'white',
+                  borderColor: 'black',
                   borderWidth: 1,
-                  backgroundColor: 'white',
+                  backgroundColor: 'black',
                   // borderTopRightRadius: this.state.viewHeight / 10,
                   // borderTopLeftRadius: this.state.viewHeight / 10,
                   borderBottomRightRadius: this.state.viewHeight / 4,
@@ -232,16 +223,7 @@ class EmojiScreen extends PureComponent {
         <View style={{flexDirection: 'row', marginTop: 10}}>
           <View
             style={{
-              marginLeft: 20,
-              justifyContent: 'center',
-              width: 100,
-              alignItems: 'center',
-            }}>
-            <Text>Okay</Text>
-          </View>
-          <View
-            style={{
-              marginLeft: 20,
+              marginLeft: '3%',
               justifyContent: 'center',
               width: 100,
               alignItems: 'center',
@@ -250,7 +232,16 @@ class EmojiScreen extends PureComponent {
           </View>
           <View
             style={{
-              marginLeft: 20,
+              marginLeft: '3%',
+              justifyContent: 'center',
+              width: 100,
+              alignItems: 'center',
+            }}>
+            <Text>Okay</Text>
+          </View>
+          <View
+            style={{
+              marginLeft: '3%',
               justifyContent: 'center',
               width: 100,
               alignItems: 'center',
@@ -258,10 +249,31 @@ class EmojiScreen extends PureComponent {
             <Text>Great</Text>
           </View>
         </View>
+        {/* <View
+          style={{
+            height: this.state.viewHeight / 5,
+            width: this.state.viewHeight / 3,
+            marginTop: '18%',
+            borderColor: 'black',
+            borderWidth: 3,
+            backgroundColor: 'black',
+            // borderTopRightRadius: this.state.viewHeight / 10,
+            // borderTopLeftRadius: this.state.viewHeight / 10,
+            // borderBottomRightRadius: this.state.viewHeight / 3,
+            // borderBottomLeftRadius: this.state.viewHeight / 3,
+            // position: 'absolute',
+            borderRadius: this.state.viewHeight / 2,
+            // transform: [{scaleX: 2}, {scaleY: 0.25}],
+            transform: [
+              {rotateX: '45deg'},
+              {rotateY: '-30deg'},
+              {rotateZ: '30deg'},
+            ],
+          }}
+        /> */}
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({});
 export default EmojiScreen;
